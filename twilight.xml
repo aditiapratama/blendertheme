@@ -10,7 +10,7 @@
                           axis_z="#0000dc">
         <wcol_regular>
           <ThemeWidgetColors outline="#000000"
-                             inner="#3c3b37ff"
+                             inner="#2f2f2bff"
                              inner_sel="#0d0d0dff"
                              item="#cbc3bbff"
                              text="#dfdfdf"
@@ -118,7 +118,7 @@
         </wcol_box>
         <wcol_menu>
           <ThemeWidgetColors outline="#0d0d0d"
-                             inner="#3c3b37ff"
+                             inner="#2f2f2bff"
                              inner_sel="#121212ff"
                              item="#ffffffff"
                              text="#dfdbcf"
@@ -142,13 +142,13 @@
         </wcol_pulldown>
         <wcol_menu_back>
           <ThemeWidgetColors outline="#0d0d0d"
-                             inner="#131312db"
+                             inner="#3a3a36ff"
                              inner_sel="#2d2d2de6"
                              item="#ab6c00ff"
                              text="#dddddd"
                              text_sel="#dddddd"
-                             show_shaded="FALSE"
-                             shadetop="25"
+                             show_shaded="TRUE"
+                             shadetop="16"
                              shadedown="-20">
           </ThemeWidgetColors>
         </wcol_menu_back>
@@ -180,7 +180,7 @@
           <ThemeWidgetColors outline="#000000"
                              inner="#000000b4"
                              inner_sel="#646464c6"
-                             item="#272727ff"
+                             item="#3c3b37ff"
                              text="#cbc3bb"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
@@ -239,16 +239,17 @@
                    vertex="#ffc478"
                    vertex_select="#f47421"
                    vertex_size="3"
-                   vertex_unreferenced="#000000"
                    edge_select="#f47421"
                    edge_seam="#ff0500"
                    edge_sharp="#009bff"
                    edge_crease="#ff0085"
                    edge_facesel="#4b4b4b"
+                   freestyle_edge_mark="#7fff7f"
                    face="#b6b6b612"
                    face_select="#ff79223c"
                    face_dot="#f47421"
                    facedot_size="4"
+                   freestyle_face_mark="#7fff7f33"
                    nurb_uline="#909000"
                    nurb_vline="#862074"
                    nurb_sel_uline="#f0ff40"
@@ -284,12 +285,12 @@
                               header="#464541"
                               header_text="#acacac"
                               header_text_hi="#ffffff"
-                              button="#3c3b3757"
+                              button="#3c3b37ff"
                               button_title="#9c9c9c"
                               button_text="#9c9c9c"
                               button_text_hi="#ffffff">
             <panelcolors>
-              <ThemePanelColors header="#00000000"
+              <ThemePanelColors header="#00000033"
                                 back="#72727280"
                                 show_header="TRUE"
                                 show_back="FALSE">
@@ -298,7 +299,7 @@
             <gradients>
               <ThemeGradientColors show_grad="TRUE"
                                    gradient="#000000"
-                                   high_gradient="#2d2d27">
+                                   high_gradient="#47473d">
               </ThemeGradientColors>
             </gradients>
           </ThemeSpaceGradient>
@@ -312,7 +313,6 @@
                         vertex="#ffffff"
                         vertex_select="#f49600"
                         vertex_size="4"
-                        vertex_unreferenced="#000000"
                         handle_free="#a5ca00"
                         handle_auto="#00c59a"
                         handle_vect="#409030"
@@ -492,11 +492,11 @@
       <ThemeImageEditor vertex="#000000"
                         vertex_select="#f47421"
                         vertex_size="3"
-                        vertex_unreferenced="#000000"
                         face="#ffffff0a"
                         face_select="#ff85003c"
                         face_dot="#f47421"
                         facedot_size="3"
+                        freestyle_face_mark="#00000000"
                         editmesh_active="#ffffff80"
                         scope_back="#3c3b37ff"
                         preview_stitch_face="#1242b026"
@@ -784,7 +784,7 @@
                              header_text="#d3d2cd"
                              header_text_hi="#ffffff"
                              button="#696965ff"
-                             button_title="#000000"
+                             button_title="#181818"
                              button_text="#000000"
                              button_text_hi="#ffffff">
             <panelcolors>
