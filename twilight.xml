@@ -11,7 +11,7 @@
         <wcol_regular>
           <ThemeWidgetColors outline="#000000"
                              inner="#282e33ff"
-                             inner_sel="#151719ff"
+                             inner_sel="#202326ff"
                              item="#cbc3bbff"
                              text="#dfdfdf"
                              text_sel="#dfdfdf"
@@ -551,7 +551,7 @@
                              header="#46535a"
                              header_text="#acacac"
                              header_text_hi="#ffffff"
-                             button="#3c3b3742"
+                             button="#282e33ff"
                              button_title="#acacac"
                              button_text="#acacac"
                              button_text_hi="#ffffff">
