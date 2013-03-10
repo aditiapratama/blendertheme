@@ -33,15 +33,15 @@
           </ThemeWidgetColors>
         </wcol_tool>
         <wcol_radio>
-          <ThemeWidgetColors outline="#000000"
-                             inner="#202326ff"
+          <ThemeWidgetColors outline="#4d545b"
+                             inner="#2b2f33ff"
                              inner_sel="#ab6c00ff"
-                             item="#cbc3bbff"
+                             item="#3c464dff"
                              text="#dfdbcf"
                              text_sel="#dfdbcf"
                              show_shaded="TRUE"
                              shadetop="20"
-                             shadedown="-5">
+                             shadedown="-10">
           </ThemeWidgetColors>
         </wcol_radio>
         <wcol_text>
@@ -59,7 +59,7 @@
         <wcol_option>
           <ThemeWidgetColors outline="#0d0d0d"
                              inner="#647781ff"
-                             inner_sel="#774c00ff"
+                             inner_sel="#b87400ff"
                              item="#fff8ecff"
                              text="#84817e"
                              text_sel="#dfdbcf"
@@ -71,22 +71,22 @@
         <wcol_toggle>
           <ThemeWidgetColors outline="#000000"
                              inner="#282f33ff"
-                             inner_sel="#774c00ff"
+                             inner_sel="#b87400ff"
                              item="#cbc3bbff"
                              text="#c3bfb7"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
-                             shadetop="7"
-                             shadedown="-3">
+                             shadetop="20"
+                             shadedown="-10">
           </ThemeWidgetColors>
         </wcol_toggle>
         <wcol_num>
           <ThemeWidgetColors outline="#080808"
                              inner="#282f33ff"
-                             inner_sel="#282f33ff"
+                             inner_sel="#ffa000ff"
                              item="#ffa000ff"
                              text="#dfdbcf"
-                             text_sel="#ffffff"
+                             text_sel="#282f33"
                              show_shaded="TRUE"
                              shadetop="20"
                              shadedown="-20">
@@ -96,7 +96,7 @@
           <ThemeWidgetColors outline="#0d0d0d"
                              inner="#141719ff"
                              inner_sel="#282e33ff"
-                             item="#ab6c00ff"
+                             item="#774c00ff"
                              text="#eeedeb"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
@@ -239,17 +239,16 @@
                    vertex="#ffffff"
                    vertex_select="#ff9d00"
                    vertex_size="3"
+                   vertex_unreferenced="#000000"
                    edge_select="#ff9d00"
                    edge_seam="#ff0500"
                    edge_sharp="#009bff"
                    edge_crease="#ff0085"
                    edge_facesel="#4b4b4b"
-                   freestyle_edge_mark="#7fff7f"
                    face="#b6b6b612"
                    face_select="#ff79223c"
                    face_dot="#f47421"
                    facedot_size="4"
-                   freestyle_face_mark="#7fff7f33"
                    nurb_uline="#909000"
                    nurb_vline="#862074"
                    nurb_sel_uline="#f0ff40"
@@ -307,12 +306,13 @@
       </ThemeView3D>
     </view_3d>
     <graph_editor>
-      <ThemeGraphEditor grid="#3c3b37"
+      <ThemeGraphEditor grid="#274a58"
                         window_sliders="#95948f"
                         channels_region="#707070"
                         vertex="#ffffff"
                         vertex_select="#f49600"
                         vertex_size="4"
+                        vertex_unreferenced="#000000"
                         handle_free="#a5ca00"
                         handle_auto="#00c59a"
                         handle_vect="#409030"
@@ -399,7 +399,7 @@
       </ThemeFileBrowser>
     </file_browser>
     <nla_editor>
-      <ThemeNLAEditor grid="#5c5c52"
+      <ThemeNLAEditor grid="#274a58"
                       view_sliders="#969696"
                       active_action="#00000000"
                       active_action_unset="#00000000"
@@ -445,7 +445,7 @@
       </ThemeNLAEditor>
     </nla_editor>
     <dopesheet_editor>
-      <ThemeDopeSheet grid="#525252"
+      <ThemeDopeSheet grid="#274a58"
                       value_sliders="#000000"
                       view_sliders="#9c9c9c"
                       channels="#9c9c9c"
@@ -492,11 +492,11 @@
       <ThemeImageEditor vertex="#000000"
                         vertex_select="#f47421"
                         vertex_size="3"
+                        vertex_unreferenced="#000000"
                         face="#ffffff0a"
                         face_select="#ff85003c"
                         face_dot="#f47421"
                         facedot_size="3"
-                        freestyle_face_mark="#00000000"
                         editmesh_active="#ffffff80"
                         scope_back="#3c3b37ff"
                         preview_stitch_face="#1242b026"
@@ -506,7 +506,7 @@
                         preview_stitch_unstitchable="#ff0000ff"
                         preview_stitch_active="#e1d2c323">
         <space>
-          <ThemeSpaceGeneric back="#282e33"
+          <ThemeSpaceGeneric back="#1e2326"
                              title="#000000"
                              text="#000000"
                              text_hi="#ffffff"
@@ -529,7 +529,7 @@
       </ThemeImageEditor>
     </image_editor>
     <sequence_editor>
-      <ThemeSequenceEditor grid="#282828"
+      <ThemeSequenceEditor grid="#274a58"
                            window_sliders="#a0a0a0"
                            movie_strip="#516987"
                            movieclip_strip="#20208f"
@@ -592,7 +592,7 @@
       </ThemeProperties>
     </properties>
     <text_editor>
-      <ThemeTextEditor line_numbers_background="#151513"
+      <ThemeTextEditor line_numbers_background="#274a58"
                        selected_text="#7d7d7d"
                        cursor="#eb9403"
                        syntax_builtin="#e500a7"
@@ -627,7 +627,7 @@
       </ThemeTextEditor>
     </text_editor>
     <timeline>
-      <ThemeTimeline grid="#1a1a1a"
+      <ThemeTimeline grid="#274a58"
                      frame_current="#00ff00">
         <space>
           <ThemeSpaceGeneric back="#282e33"
@@ -689,7 +689,7 @@
           </ThemeSpaceGeneric>
         </space>
         <space_list>
-          <ThemeSpaceListGeneric list="#3c3b37"
+          <ThemeSpaceListGeneric list="#282e33"
                                  list_title="#acacac"
                                  list_text="#acacac"
                                  list_text_hi="#ffffff">
@@ -729,7 +729,7 @@
           <ThemeSpaceGeneric back="#282e33"
                              title="#000000"
                              text="#ffffff"
-                             text_hi="#aa6b02"
+                             text_hi="#c47b02"
                              header="#46535a"
                              header_text="#acacac"
                              header_text_hi="#ffffff"
@@ -830,7 +830,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor marker_outline="#000000"
-                       marker="#5c7000"
+                       marker="#28ff00"
                        active_marker="#ffffff"
                        selected_marker="#d5ff00"
                        disabled_marker="#7f0000"
@@ -845,14 +845,14 @@
                        strips="#0c0a0a"
                        strips_selected="#ff8c00">
         <space>
-          <ThemeSpaceGeneric back="#282e33"
+          <ThemeSpaceGeneric back="#151719"
                              title="#9c9c9c"
                              text="#9c9c9c"
                              text_hi="#ffffff"
                              header="#46535a"
                              header_text="#9c9c9c"
                              header_text_hi="#ffffff"
-                             button="#1e2326ff"
+                             button="#282f33ff"
                              button_title="#9c9c9c"
                              button_text="#ffffff"
                              button_text_hi="#ffffff">
