@@ -49,7 +49,7 @@
                              inner="#647781ff"
                              inner_sel="#ab6c00ff"
                              item="#1e2326ff"
-                             text="#000000"
+                             text="#1e2326"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
                              shadetop="-20"
@@ -106,7 +106,7 @@
         </wcol_numslider>
         <wcol_box>
           <ThemeWidgetColors outline="#ab6c00"
-                             inner="#212427ff"
+                             inner="#1e2326ff"
                              inner_sel="#717171ff"
                              item="#0d0d0dff"
                              text="#e5e5e5"
@@ -180,7 +180,7 @@
           <ThemeWidgetColors outline="#141719"
                              inner="#202326b4"
                              inner_sel="#646464c6"
-                             item="#282e33ff"
+                             item="#141719ff"
                              text="#e5e5e5"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
@@ -225,7 +225,7 @@
       </ThemeUserInterface>
     </user_interface>
     <view_3d>
-      <ThemeView3D grid="#274a58"
+      <ThemeView3D grid="#396b7f"
                    wire="#ffffff"
                    lamp="#6c6231ff"
                    speaker="#6c6231"
@@ -297,8 +297,8 @@
             </panelcolors>
             <gradients>
               <ThemeGradientColors show_grad="TRUE"
-                                   gradient="#0a0b0c"
-                                   high_gradient="#3c464d">
+                                   gradient="#282e33"
+                                   high_gradient="#647681">
               </ThemeGradientColors>
             </gradients>
           </ThemeSpaceGradient>

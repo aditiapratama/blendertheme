@@ -106,14 +106,14 @@
         </wcol_numslider>
         <wcol_box>
           <ThemeWidgetColors outline="#ab6c00"
-                             inner="#2e2e2eff"
+                             inner="#141414ff"
                              inner_sel="#717171ff"
                              item="#212121ff"
                              text="#e5e5e5"
                              text_sel="#fffefc"
                              show_shaded="TRUE"
-                             shadetop="25"
-                             shadedown="0">
+                             shadetop="15"
+                             shadedown="25">
           </ThemeWidgetColors>
         </wcol_box>
         <wcol_menu>
@@ -153,14 +153,14 @@
           </ThemeWidgetColors>
         </wcol_menu_back>
         <wcol_tooltip>
-          <ThemeWidgetColors outline="#000000"
-                             inner="#212121e6"
-                             inner_sel="#2d2d2de6"
+          <ThemeWidgetColors outline="#2e2e2e"
+                             inner="#212121b3"
+                             inner_sel="#2d2d2db3"
                              item="#646464ff"
                              text="#e5e5e5"
                              text_sel="#ffa000"
                              show_shaded="TRUE"
-                             shadetop="25"
+                             shadetop="10"
                              shadedown="-20">
           </ThemeWidgetColors>
         </wcol_tooltip>
@@ -178,14 +178,14 @@
         </wcol_menu_item>
         <wcol_scroll>
           <ThemeWidgetColors outline="#212121"
-                             inner="#484848b4"
-                             inner_sel="#646464c6"
+                             inner="#212121b4"
+                             inner_sel="#3b3b3bb3"
                              item="#2e2e2eff"
                              text="#e5e5e5"
                              text_sel="#ffffff"
-                             show_shaded="FALSE"
-                             shadetop="0"
-                             shadedown="-10">
+                             show_shaded="TRUE"
+                             shadetop="15"
+                             shadedown="-5">
           </ThemeWidgetColors>
         </wcol_scroll>
         <wcol_progress>
@@ -239,17 +239,16 @@
                    vertex="#ffffff"
                    vertex_select="#ff9d00"
                    vertex_size="3"
+                   vertex_unreferenced="#000000"
                    edge_select="#ff9d00"
                    edge_seam="#ff0500"
                    edge_sharp="#009bff"
                    edge_crease="#ff0085"
                    edge_facesel="#4b4b4b"
-                   freestyle_edge_mark="#7fff7f"
                    face="#b6b6b612"
                    face_select="#ff79223c"
                    face_dot="#f47421"
                    facedot_size="4"
-                   freestyle_face_mark="#7fff7f33"
                    nurb_uline="#909000"
                    nurb_vline="#862074"
                    nurb_sel_uline="#f0ff40"
@@ -313,6 +312,7 @@
                         vertex="#1b1d00"
                         vertex_select="#f49b0c"
                         vertex_size="6"
+                        vertex_unreferenced="#000000"
                         handle_free="#000000"
                         handle_auto="#777700"
                         handle_vect="#409030"
@@ -492,11 +492,11 @@
       <ThemeImageEditor vertex="#000000"
                         vertex_select="#f47421"
                         vertex_size="3"
+                        vertex_unreferenced="#000000"
                         face="#ffffff0a"
                         face_select="#ff85003c"
                         face_dot="#f47421"
                         facedot_size="3"
-                        freestyle_face_mark="#00000000"
                         editmesh_active="#ffffff80"
                         scope_back="#2d2d2dff"
                         preview_stitch_face="#1242b026"
@@ -799,18 +799,18 @@
       </ThemeUserPreferences>
     </user_preferences>
     <console>
-      <ThemeConsole line_output="#3e4df5"
+      <ThemeConsole line_output="#d58804"
                     line_input="#ffffff"
                     line_info="#00ff00"
                     line_error="#ff0000"
                     cursor="#ffffff"
                     select="#aa6b0280">
         <space>
-          <ThemeSpaceGeneric back="#141719"
+          <ThemeSpaceGeneric back="#141414"
                              title="#000000"
                              text="#e5e5e5"
                              text_hi="#ffffff"
-                             header="#46535a"
+                             header="#2d2d2d"
                              header_text="#acacac"
                              header_text_hi="#ffffff"
                              button="#3c3b37ff"
