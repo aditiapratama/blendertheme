@@ -5,4 +5,6 @@ Hi this is Twilight Blender theme. It's focus mainly to make blender more sleek 
 
 I put the stable version of this theme on release folder https://github.com/aditiapratama/blendertheme/tree/master/release.
 
+Follow the latest development news in Blender Artist thread here http://blenderartists.org/forum/showthread.php?284878-Themes-Twilight-Blender-Theme
+
 Thanks and Regards
