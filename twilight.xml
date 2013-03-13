@@ -106,14 +106,14 @@
         </wcol_numslider>
         <wcol_box>
           <ThemeWidgetColors outline="#ab6c00"
-                             inner="#1e2326ff"
+                             inner="#212427ff"
                              inner_sel="#717171ff"
                              item="#0d0d0dff"
                              text="#e5e5e5"
                              text_sel="#fffefc"
                              show_shaded="TRUE"
-                             shadetop="25"
-                             shadedown="0">
+                             shadetop="0"
+                             shadedown="15">
           </ThemeWidgetColors>
         </wcol_box>
         <wcol_menu>
@@ -142,7 +142,7 @@
         </wcol_pulldown>
         <wcol_menu_back>
           <ThemeWidgetColors outline="#0d0d0d"
-                             inner="#282e33ff"
+                             inner="#3c464dff"
                              inner_sel="#1e232680"
                              item="#ab6c00ff"
                              text="#e5e5e5"
@@ -227,12 +227,12 @@
     <view_3d>
       <ThemeView3D grid="#274a58"
                    wire="#ffffff"
-                   lamp="#e1c367ff"
-                   speaker="#e1c367"
-                   camera="#e1c367"
-                   empty="#fdff58"
-                   object_selected="#ff5d00"
-                   object_active="#ec9403"
+                   lamp="#6c6231ff"
+                   speaker="#6c6231"
+                   camera="#6c6231"
+                   empty="#6c6231"
+                   object_selected="#d8a14d"
+                   object_active="#ffca00"
                    object_grouped="#23e723"
                    object_grouped_active="#0aff00"
                    transform="#ffffff"
