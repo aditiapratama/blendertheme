@@ -49,7 +49,7 @@
                              inner="#647781ff"
                              inner_sel="#ab6c00ff"
                              item="#1e2326ff"
-                             text="#1e2326"
+                             text="#e5e5e5"
                              text_sel="#ffffff"
                              show_shaded="TRUE"
                              shadetop="-20"
@@ -335,7 +335,7 @@
                         dopesheet_channel="#4e596e"
                         dopesheet_subchannel="#7c8996">
         <space>
-          <ThemeSpaceGeneric back="#758b94"
+          <ThemeSpaceGeneric back="#424c4e"
                              title="#9c9c9c"
                              text="#e5e5e5"
                              text_hi="#ffffff"
@@ -417,7 +417,7 @@
                       tweak_duplicate="#000000"
                       frame_current="#317700">
         <space>
-          <ThemeSpaceGeneric back="#758b94"
+          <ThemeSpaceGeneric back="#424c4e"
                              title="#000000"
                              text="#e5e5e5"
                              text_hi="#ffffff"
@@ -461,7 +461,7 @@
                       dopesheet_subchannel="#5a6a74"
                       summary="#6d470499">
         <space>
-          <ThemeSpaceGeneric back="#758b94"
+          <ThemeSpaceGeneric back="#424c4e"
                              title="#9c9c9c"
                              text="#e7e7e7"
                              text_hi="#ffffff"
@@ -547,7 +547,7 @@
                            draw_action="#50c8ff"
                            preview_back="#000000">
         <space>
-          <ThemeSpaceGeneric back="#758b94"
+          <ThemeSpaceGeneric back="#424c4e"
                              title="#acacac"
                              text="#e5e5e5"
                              text_hi="#ffffff"
@@ -633,7 +633,7 @@
       <ThemeTimeline grid="#5a6a74"
                      frame_current="#00ff00">
         <space>
-          <ThemeSpaceGeneric back="#57676d"
+          <ThemeSpaceGeneric back="#424c4e"
                              title="#000000"
                              text="#e5e5e5"
                              text_hi="#ffffff"
