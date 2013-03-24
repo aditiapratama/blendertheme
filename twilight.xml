@@ -655,7 +655,7 @@
     <node_editor>
       <ThemeNodeEditor node_selected="#de8b02"
                        node_active="#de8b02"
-                       wire="#ffffff"
+                       wire="#000000"
                        wire_select="#ffffff"
                        selected_text="#7f7070"
                        node_backdrop="#282f33d1"
